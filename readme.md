@@ -1,6 +1,6 @@
 # Firebase in python
 
-##### **What is firebase ?**
+### **What is firebase ?**
 
 Firebase is a Backend-as-a-Service (Baas). It provides developers with a variety of tools and services to help them develop quality apps, grow their user base, and earn profit. It is built on Google's infrastructure. Firebase is categorised as a No SQL database program, which stores data in JSON-like documents.
 
@@ -8,7 +8,7 @@ Firebase is a Backend-as-a-Service (Baas). It provides developers with a variety
 
  Here we will be mainly focusing on how to integrate Firebase and python.
 
-##### **How do we integrate Firebase and python ?** (Traditional Way)
+### **How do we integrate Firebase (not only firebase any application) to our program ?** (Traditional Way)
 
 A traditional way of doing this is using an **API** (Application Programming Interface) directly,  In laymen terms it is nothing but some URL's using which we can access a specific website for fetching data and using their services.
 
@@ -20,7 +20,7 @@ If you want a better understanding of what an API is you can watch this video: h
 
 Doing the API call directly in our code is way too complicated than what we think. As a beginner we'll like **WTF are these things bro**. Don't worry Firebase ka docs has suggested an easy way to use their API, it's nothing but an **API Wrapper**.  
 
-##### **What are API wrappers?**
+### **What are API wrappers?**
 
 **API wrappers** are **language-specific kits or packages that wrap sets of XML API calls into easy-to-use functions**.
 
