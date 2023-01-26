@@ -5,7 +5,6 @@ firebaseConfig = {
 
 }
 
-
 #initialize app
 firebase = pyrebase.initialize_app(firebaseConfig)
 
@@ -38,7 +37,7 @@ def main():
 	print("1. SignUp\n")
 	print("2. SignIn\n")
 
-	choice = int(input("Enter your choice: "))
+	choice = int(input("Enter your choice: ")) #1
 
 	if choice == 1:
 		nemail = input("Enter email: ")
@@ -54,7 +53,7 @@ def main():
 
 	elif choice == 2:
 		email = input("Enter email: ")
-		password = input("Enter password:  ")
+		password = input("Enter password: ")
 		signin(email,password)
 
 

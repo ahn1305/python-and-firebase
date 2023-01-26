@@ -21,6 +21,6 @@ storage = firebase.storage()
 get_filename = input("Enter name of file that you want to fetch: ")
 print(storage.child("data/textfiles/"+get_filename).get_url(None))
 
-# Download Data
-# down_filename = input("Enter name of file that you want to download: ")
-# storage.child("data/textfiles/"+down_filename).download("","cloud.txt")
+Download Data
+down_filename = input("Enter name of file that you want to download: ")
+storage.child("data/textfiles/"+down_filename).download("","cloud.txt")
