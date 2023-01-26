@@ -1,5 +1,4 @@
 import pyrebase
-from firebase_config import firebaseConfig
 
 #Config
 firebaseConfig = {
