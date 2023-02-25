@@ -1,16 +1,8 @@
+# imports
+
+from getpass import getpass
 import pyrebase
 import os
-# from PIL import Image
-from getpass import getpass
-
-from tkinter import *
-  
-# import filedialog module
-from tkinter import filedialog
-  
-# Function for opening the
-# file explorer window
-
 
 # Configuration for Pyrebase
 firebaseConfig = {
@@ -26,15 +18,9 @@ auth = firebase.auth()
 # Get the Firebase storage instance
 storage = firebase.storage()
 
-def browseFiles():
-    filename = filedialog.askopenfilename(title = "Select a File",
-                                          filetypes = (("Text files",
-                                                        "*.txt*"),
-                                                       ("all files",
-                                                        "*.*")))
-    return filename
     
 # Sign up a new user
+# posible errors: user already exists or password length is low
 def signup():
     email = input("Enter your email: ")
     password = getpass(prompt="Enter your password: ")
@@ -59,13 +45,13 @@ def signin():
 # Store an image in Firebase storage
 def store_image(user):
     path = input("Enter the path to the image file: ")
-    filename = os.path.basename(path)
-    # try:
-    storage.child(filename).put(path, user['idToken'])
-    print(storage.child(filename).get_url(user['idToken']))
-    print("Image stored successfully.")
-    # except:
-        # print("Error storing image.")
+    filename = os.path.basename(path) # extract filename from the input path
+    try:
+        storage.child(filename).put(path, user['idToken'])
+        print("Image stored successfully.")
+        print(storage.child(filename).get_url(user['idToken']))
+    except:
+        print("Error storing image.")
 
 
 # Main loop of the application
