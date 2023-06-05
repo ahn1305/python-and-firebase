@@ -37,7 +37,7 @@ def main():
 	print("1. SignUp\n")
 	print("2. SignIn\n")
 
-	choice = int(input("Enter your choice: ")) #1
+	choice = int(input("Enter your option: ")) #1
 
 	if choice == 1:
 		nemail = input("Enter email: ")
