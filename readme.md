@@ -33,7 +33,7 @@ So in order to use Firebase API we will be using a API wrapper called **Pyrebase
 Ultimately what I'm trying to convey is we will be using this API wrapper called **Pyrebase4** that is a python package using which we can connect to an Firebase application from our local machine, basically it's an intermediate.
 
 
-Other Resources:
+<b>Other Resources:</b> <br>
 https://github.com/nhorvath/Pyrebase4 <br>
 https://sharma-vikashkr.medium.com/firebase-how-to-setup-an-app-in-firebase-9ddbacfe8ad1
 
