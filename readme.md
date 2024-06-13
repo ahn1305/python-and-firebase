@@ -26,7 +26,7 @@ Doing the API call directly in our code is way too complicated than what we thin
 
 Again don't worry about what this is, the line says that **rather writing multiple lines of code to do an API call** you can use **wrappers** that are nothing but some **functions** (functions are just block of codes that does a specific jobs that are repetitive). In even more simple terms rather writing multiple lines of code We will be using something called functions and pass some values to it, which does the same job.
 
-### **PYREBASE**
+### **Pyrebase**
 
 So in order to use Firebase API we will be using a API wrapper called **Pyrebase** (version 4) using which we can connect to our **Firebase Application.** If you don't know what is Firebase Application just forget these things, I'll cover this up later. 
 
