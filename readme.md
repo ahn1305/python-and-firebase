@@ -28,12 +28,14 @@ Again don't worry about what this is, the line says that **rather writing multip
 
 ### **PYREBASE**
 
-So in order to use Firebase API we will be using a API wrapper called **Pyrebase** using which we can connect to our **Firebase Application.** If you don't know what is Firebase Application just forget these things, I'll cover this up later. 
+So in order to use Firebase API we will be using a API wrapper called **Pyrebase** (version 4) using which we can connect to our **Firebase Application.** If you don't know what is Firebase Application just forget these things, I'll cover this up later. 
 
-Ultimately what I'm trying to convey is we will be using this API wrapper called **Pyrebase** that is a python package using which we can connect to an Firebase application from our local machine, basically it's an intermediate.
+Ultimately what I'm trying to convey is we will be using this API wrapper called **Pyrebase4** that is a python package using which we can connect to an Firebase application from our local machine, basically it's an intermediate.
 
 
-
+Other Resources:
+https://github.com/nhorvath/Pyrebase4
+https://sharma-vikashkr.medium.com/firebase-how-to-setup-an-app-in-firebase-9ddbacfe8ad1
 
 
 
