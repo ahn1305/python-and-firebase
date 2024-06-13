@@ -34,7 +34,7 @@ Ultimately what I'm trying to convey is we will be using this API wrapper called
 
 
 Other Resources:
-https://github.com/nhorvath/Pyrebase4
+https://github.com/nhorvath/Pyrebase4 <br>
 https://sharma-vikashkr.medium.com/firebase-how-to-setup-an-app-in-firebase-9ddbacfe8ad1
 
 
